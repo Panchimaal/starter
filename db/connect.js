@@ -8,7 +8,7 @@ const connectDB = (url) => {
 return mongoose.connect(url, {
     useNewUrlParser: true,
     useCreateIndex: true,
-    //UseFindAndModify: false,
+    UseFindAndModify: false,
     useUnifiedTopology: true, 
 })
 }
